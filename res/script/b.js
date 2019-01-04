@@ -1,0 +1,24 @@
+addScripts(
+	document,
+	genResPaths(
+		'./res/script',
+		[
+			[
+				'required',
+				[
+					'1.js',
+					'2.js',
+					'3.js',
+				]
+			],
+			[
+				'required',
+				[
+					'3.js',
+					'4.js',
+					'4.js',
+				]
+			]//,...
+		]
+	)
+);
